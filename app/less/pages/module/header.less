@@ -1,25 +1,24 @@
 #header {
-    position: relative;
+    position   : fixed;
+    top: 0px;
+    font-family: BarlowBold;
+    width: 100%;
     .header-nav {
-        position: relative;
-        width: 100%;
-        background: green;
-        padding-top: 11px;
+        position      : relative;
+        width         : 100%;
+        padding-top   : 11px;
         padding-bottom: 9px;
-        z-index: 1;
-        transition: padding 0.5s ease, color 1s ease;
-
-
+        z-index       : 1;
+        transition    : padding 0.5s ease, color 1s ease;
 
         .nav-content {
             .logo {
                 float: left;
 
                 img {
-                    width: 200px;
-                    padding-top: 7px;
+                    width      : 160px;
+                    padding-top: 35px;
                 }
-
             }
 
             .nav {
@@ -35,39 +34,40 @@
                     }
 
                     .menu-list {
-                        .menu-list__item {
-                            float: left;
-                            padding-left: 57px;
-                            padding-top: 25px;
+
+                        .menu-list__item,
+                        .link_social {
+                            float      : left;
+                            padding-top: 45px;
+
+                            &:nth-child(5) {
+                                margin-right: 31px;
+                            }
 
                             .menu-list__link {
-                                display: block;
-                                color: #fff;
-                                font-size: 15px;
-                                position: relative;
+                                display       : block;
+                                color         : #fff;
+                                font-size     : 15px;
+                                position      : relative;
                                 text-transform: uppercase;
 
-                                &:after {
-                                    content: "";
-                                    background: #fff;
-                                    width: 6px;
-                                    height: 6px;
-                                    border-radius: 50%;
-                                    font-size: 41px;
-                                    position: absolute;
-                                    top: 50%;
-                                    transform: translateY(-50%);
-                                    left: -17px;
-                                    line-height: 1px;
-                                }
-
                                 &:hover {
-                                    &:after {
-                                        background: #00d166;
-                                    }
                                     color: #00d166;
                                 }
 
+                            }
+                        }
+
+                        .menu-list__item {
+                            padding-left  : 59px;
+                            letter-spacing: 2px;
+                        }
+
+                        .link_social {
+                            padding-left: 30px;
+
+                            a {
+                                font-size: 17px !important;
                             }
                         }
                     }
@@ -75,9 +75,4 @@
             }
         }
     }
-   
-
-
 }
-
-

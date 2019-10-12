@@ -7,6 +7,16 @@
     <title>{% block pageTitle %}{% endblock %}</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" href="images/icon/fav_icon.png" type="image/png">
+    <style>
+        @font-face {
+            font-family: Barlow;
+            src: url("../../dist/fonts/Barlow-Regular.ttf");
+        }
+        @font-face {
+            font-family: BarlowBold;
+            src: url("../../dist/fonts/Barlow-Bold.ttf");
+        }
+    </style>
     <link rel="stylesheet" type="text/css" href="css/tool.min.css" />
     <link rel="stylesheet" type="text/css" href="css/main.min.css" />
     {% block customStyles %}{% endblock %}
