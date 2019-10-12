@@ -3,10 +3,7 @@
 {% block bodyClass %}{% endblock %}
 {% block content %}
     <main id="main-about">
-        
-        
     </main>
 {% endblock %}
-
 {% block script %}{% endblock %}
 
