@@ -1,0 +1,165 @@
+.bs-tab {
+    &.tab-left {
+        padding-left: 100px;
+        .tab-container {
+            position: relative;
+            .tab-control {
+                position: absolute;
+                right: 100%;
+                border-bottom: 0;
+                border-right: 2px solid green;
+                top: 0;
+                .control-list {
+                    .control-list__item {
+                        border-top-right-radius: 0;
+                        border-bottom-left-radius: 15px;
+                    }
+                }
+
+            }
+            .tab-content {
+                padding-top: 0;
+                padding-left: 30px;
+            }
+
+        }
+
+    }
+    .tab-control {
+        border-bottom: 2px solid green;
+        position: relative;
+        .control__show {
+            display: none;
+        }
+        .control-list {
+            &:after,
+            &:before {
+                content: "";
+                display: table;
+            }
+            &:after {
+                clear: both;
+            }
+            .control-list__item {
+                float: left;
+                min-width: 100px;
+                background: #fff;
+                padding: 5px 10px;
+                text-align: center;
+                border: 1px solid transparent;
+                color: #333;
+                font-size: 14px;
+                font-weight: bold;
+                position: relative;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                cursor: pointer;
+                box-shadow: 0px 0 0px rgba(0, 0, 0, 0.4);
+
+                &:hover {
+                    background: #ccc;
+                    border: 1px solid #ccc;
+                }
+                &.active {
+                    background: green;
+                    color: #fff;
+                    border: 1px solid green;
+                    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+                    z-index: 1;
+                    transition: all 0.3s ease;
+                }
+
+            }
+
+        }
+
+
+
+    }
+    .tab-content {
+        padding-top: 30px;
+        min-height: 200px;
+        .tab-item {
+            display: none;
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bs-tab {
+        &.tab-left {
+            padding-left: 0;
+            .tab-container {
+                .tab-control {
+                    right: unset;
+                    position: relative;
+                    border-right: none;
+                }
+                .tab-content {
+                    padding-top: 30px;
+                }
+            }
+        }
+
+        .tab-control {
+            border-bottom: none;
+            .control__show {
+                display: table;
+                padding: 10px;
+                background: green;
+                color: #fff;
+                font-weight: bold;
+                min-width: 290px;
+                position: relative;
+                padding-right: 30px;
+                &.active {
+
+                    &:after {
+                        transform: translateY(-50%) rotateX(180deg);
+                    }
+                }
+                &:after {
+                    content: "";
+                    border-left: 7px solid transparent;
+                    border-right: 7px solid transparent;
+                    border-top: 9px solid #fff;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%) rotateX(0);
+                    right: 15px;
+                    transition: all 0.3s ease;
+                }
+            }
+            .control-list {
+                position: absolute;
+                white-space: nowrap;
+                min-width: 290px;
+                z-index: 1;
+                top: 100%;
+                box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                overflow: hidden;
+                transform: scale(0);
+                transition: all 0.3s ease;
+                transform-origin: top center;
+                &.active {
+                    transform: scale(1);
+                }
+                .control-list__item {
+                    border-radius: 0;
+                    float: none;
+                    &.active {
+                        border-color: #33af33;
+                        background: #33af33;
+                        border-radius: 0 !important;
+                        box-shadow: unset;
+                    }
+                }
+            }
+        }
+    }
+}
