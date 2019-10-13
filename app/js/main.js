@@ -45,5 +45,10 @@ $(document).ready(function () {
         }, 1000);
     });
 
+    // slide_banner
+    $('.slide_banner').slick({
+        dots: true,
+        arrows: false
+    })
 
 });

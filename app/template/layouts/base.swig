@@ -16,6 +16,10 @@
             font-family: BarlowBold;
             src: url("../../dist/fonts/Barlow-Bold.ttf");
         }
+        @font-face {
+            font-family: BarlowSemi;
+            src: url("../../dist/fonts/Barlow-SemiBold.ttf");
+        }
     </style>
     <link rel="stylesheet" type="text/css" href="css/tool.min.css" />
     <link rel="stylesheet" type="text/css" href="css/main.min.css" />
