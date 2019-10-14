@@ -29,7 +29,7 @@ section {
             }
         }
 
-        .module-content {}
+        // .module-content {}
     }
 }
 
@@ -406,15 +406,14 @@ section {
 
                 .album_hover {
                     position        : absolute;
-                    width           : 100%;
+                    width           : 0%;
                     height          : 100%;
                     background-color: #75707054;
                     top             : 100%;
                     left            : 0;
-                    font-size       : 250px;
-                    transition      : top 2s cubic-bezier(1, 0.09, 0, 1.08);
+                    font-size       : 0px;
+                    transition      : top .2s cubic-bezier(1, 0.09, 0, 1.08);
                     text-align      : center;
-                    display         : none;
 
                     i {
                         cursor: pointer;
@@ -423,8 +422,9 @@ section {
 
                 &:hover {
                     .album_hover {
-                        display: block;
-                        top    : 0px;
+                        font-size: 250px;
+                        width    : 100%;
+                        top      : 0px;
                     }
                 }
 
@@ -479,7 +479,7 @@ section {
                 transform  : translateX(-50%);
                 text-align : center;
 
-                .logo {}
+                // .logo {}
 
                 p {
                     color     : white;
@@ -507,7 +507,7 @@ section {
         .module-header {
             .title {
                 max-width: 222px;
-
+                line-height: 82px;
                 &::after {
                     left : 0px;
                     width: 80%;
@@ -525,34 +525,45 @@ section {
                     .tab-control {
                         width        : 400px;
                         padding-right: 210px;
-                        border-right: unset;
+                        border-right : unset;
+
                         .control-list__item {
-                            font-family: BarlowSemi;
-                            color: #fff;
-                            width: 100%;
-                            background-color: unset;
-                            border: unset;
-                            text-align: left;
-                            padding: 0px;
-                            margin: 0px 0px 40px 3px;
-                            letter-spacing: 3px;
-                            box-shadow: unset;
-                            border-top-left-radius: unset;
+                            font-family              : BarlowSemi;
+                            color                    : #fff;
+                            width                    : 100%;
+                            background-color         : unset;
+                            border                   : unset;
+                            text-align               : left;
+                            padding                  : 0px;
+                            margin                   : 0px 0px 40px 3px;
+                            letter-spacing           : 3px;
+                            box-shadow               : unset;
+                            border-top-left-radius   : unset;
                             border-bottom-left-radius: unset;
-                            font-size: 14px;
-                            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-                            &.active{
+                            font-size                : 14px;
+                            transition               : all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+                            &.active {
                                 color: #f4506c;
                             }
-                            &:hover{
+
+                            &:hover {
                                 color: #f4506c;
                             }
                         }
                     }
 
                     .tab-content {
-                        background-color: white;
-                        
+                        // background-color: white;
+
+                        .tab-item {
+                            .item {
+                                color : white;
+                                img{ width: 100%;}
+
+
+                            }
+                        }
                     }
                 }
             }
