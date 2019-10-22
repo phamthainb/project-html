@@ -1,8 +1,7 @@
  <header id="header">
-       
         <div class="header-nav">
             <div class="bs-container-fluid">
-                <div class="nav-content clearfix">
+                <div class="nav-content">
                     <div class="logo">
                         <a href="#"><img src="../../../dist/images/logo.png" alt=""></a>
                     </div>
