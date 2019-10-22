@@ -1,7 +1,40 @@
 #footer {
-    background: blue;
-    color: #fff;
-    text-align: center;
-    height: 100px;
-    padding-top: 40px;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    margin-top    : -300px;
+    z-index       : 99;
+    position      : relative;
+
+    .footer--logo {
+        width        : 235px;
+        margin-bottom: 65px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .footer--nav {
+        .menu-list--nav {
+            display        : flex;
+            width          : 450px;
+            justify-content: space-between;
+
+            .menu-list__item {
+                font-family   : BarlowBold;
+                font-size     : 17px;
+                text-transform: uppercase;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+        .menu-list--socical {
+            display        : flex;
+            width          : 150px;
+            justify-content: space-between;
+        }
+    }
 }

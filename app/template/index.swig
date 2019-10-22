@@ -407,92 +407,554 @@ MIMUSIC
                                     </div>
                                     <div class="tab-content">
                                         <div class="tab-item active" id="tab1">
-                                            <div class="bs-row row-lg-5">
-                                                <div class="bs-col lg-50-5">
-                                                    <div class="item item_small">
-                                                        <div class="name">
-                                                            Allan Walker - All Falls Downs (MI MUSIC Remix)
-                                                        </div>
-                                                        <div class="social">
-                                                            <div class="icon_logo">
-                                                                <i class="fab fa-facebook-square"></i>
+                                            <div class="bs-row row-lg-10">
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--first">
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
                                                             </div>
-                                                            <p class="author">MI MUSIC</p>
-                                                            <p class="date">14 Oct 2019</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item item_big">
-                                                        <div class="img_">
-                                                            <img src="../../dist/images/home_social_item_1.png"
-                                                                alt="img_">
-                                                        </div>
-                                                        <div class="content">
-                                                            Custumers make decisions in seconds. How the right tools &
-                                                            data can <br>
-                                                            #MakeItAnExperience in the moments that matter : <br>
-                                                            <a href="http://facebook.com"></a>
-                                                        </div>
-                                                        <div class="social">
-                                                            <div class="icon_logo">
-                                                                <i class="fab fa-facebook-square"></i>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
                                                             </div>
-                                                            <p class="author">MI MUSIC</p>
-                                                            <p class="date">14 Oct 2019</p>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div class="bs-col lg-50-5">
-                                                    <div class="item item_small">
-                                                        <div class="name">
-                                                            Allan Walker - All Falls Downs (MI MUSIC Remix)
-                                                        </div>
-                                                        <div class="social">
-                                                            <div class="icon_logo">
-                                                                <i class="fab fa-facebook-square"></i>
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_1.png"
+                                                                    alt="img_">
                                                             </div>
-                                                            <p class="author">MI MUSIC</p>
-                                                            <p class="date">14 Oct 2019</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item item_big">
-                                                        <div class="img_">
-                                                            <img src="../../dist/images/home_social_item_1.png"
-                                                                alt="img_">
-                                                        </div>
-                                                        <div class="content">
-                                                            Custumers make decisions in seconds. How the right tools &
-                                                            data can <br>
-                                                            #MakeItAnExperience in the moments that matter : <br>
-                                                            <a href="http://facebook.com"></a>
-                                                        </div>
-                                                        <div class="social">
-                                                            <div class="icon_logo">
-                                                                <i class="fab fa-facebook-square"></i>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
                                                             </div>
-                                                            <p class="author">MI MUSIC</p>
-                                                            <p class="date">14 Oct 2019</p>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--second">
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_2.png"
+                                                                    alt="img_">
+                                                            </div>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="tab-item" id="tab2">
-                                            TAB 2
+                                            <div class="bs-row row-lg-10">
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--first">
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_1.png"
+                                                                    alt="img_">
+                                                            </div>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--second">
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_2.png"
+                                                                    alt="img_">
+                                                            </div>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="tab-item" id="tab3">
-                                            TAB 3
+                                            <div class="bs-row row-lg-10">
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--first">
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_1.png"
+                                                                    alt="img_">
+                                                            </div>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--second">
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_2.png"
+                                                                    alt="img_">
+                                                            </div>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="tab-item" id="tab4">
-                                            TAB 4
+                                            <div class="bs-row row-lg-10">
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--first">
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_1.png"
+                                                                    alt="img_">
+                                                            </div>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--second">
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_2.png"
+                                                                    alt="img_">
+                                                            </div>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="tab-item" id="tab5">
-                                            TAB 5
+                                            <div class="bs-row row-lg-10">
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--first">
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_1.png"
+                                                                    alt="img_">
+                                                            </div>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bs-col lg-50-10">
+                                                    <div class="line--second">
+                                                        <div class="item item_big">
+                                                            <div class="img_">
+                                                                <img src="../../dist/images/home_social_item_2.png"
+                                                                    alt="img_">
+                                                            </div>
+                                                            <div class="content">
+                                                                Custumers make decisions in seconds. How the right tools
+                                                                &
+                                                                data can <br>
+                                                                #MakeItAnExperience in the moments that matter : <br>
+                                                                <a class="content--link"
+                                                                    href="http://facebook.com">http://facebook.com</a>
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item_small">
+                                                            <div class="name">
+                                                                Allan Walker - All Falls Downs (MI MUSIC Remix)
+                                                            </div>
+                                                            <div class="social">
+                                                                <div class="icon_logo">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </div>
+                                                                <div class="socical-text">
+                                                                    <p class="author">MI MUSIC</p>
+                                                                    <p class="date">14 Oct 2019</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-news">
+        <div class="bs-container">
+            <div class="bs-row">
+                <div class="bs-col">
+                    <div class="module module-news">
+                        <div class="bs-row">
+                            <div class="bs-col lg-50 lg-order-last">
+                                <div class="module-header">
+                                    <div class="title">
+                                        <div class="title--rule">EXCLUSIVE</div>
+                                        Pete talks about live on tour
+                                    </div>
+                                    <div class="header--body">
+                                        <div class="time">Jan 20, 2019</div>
+                                        <div class="header-content">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                            elit. Tempore, dicta quis sit accusantium id dolor ullam unde, eius aliquid
+                                            ex atque a suscipit. Error itaque est commodi ipsum voluptates cumque.</div>
+                                        <div class="header-btn">buy tickets</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bs-col lg-50">
+                                <div class="module-content">
+                                    <div class="list-news">
+                                        <div class="news--item">
+                                            <div class="item--time">
+                                                20 Jan, 2019
+                                            </div>
+                                            <div class="item--title">
+                                                    Uk Gambling Crisis - Who's To Blame?
+                                            </div>
+                                            <div class="item--content">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam magni
+                                                natus dicta voluptatibus, id voluptatum voluptates officiis distinctio
+                                                dolores. Repellat!
+                                            </div>
+                                        </div>
+                                        <div class="news--item active--news--item">
+                                            <div class="item--time">
+                                                20 Jan, 2019
+                                            </div>
+                                            <div class="item--title">
+                                                Pete talks about live on tour
+                                            </div>
+                                            <div class="item--content">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam magni
+                                                natus dicta voluptatibus, id voluptatum voluptates officiis distinctio
+                                                dolores. Repellat!
+                                            </div>
+                                        </div>
+                                        <div class="news--item">
+                                            <div class="item--time">
+                                                20 Jan, 2019
+                                            </div>
+                                            <div class="item--title">
+                                                Pete talks about live on tour
+                                            </div>
+                                            <div class="item--content">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam magni
+                                                natus dicta voluptatibus, id voluptatum voluptates officiis distinctio
+                                                dolores. Repellat!
+                                            </div>
+                                        </div>
+                                        <div class="news--item">
+                                            <div class="item--time">
+                                                20 Jan, 2019
+                                            </div>
+                                            <div class="item--title">
+                                                Pete talks about live on tour
+                                            </div>
+                                            <div class="item--content">
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam magni
+                                                natus dicta voluptatibus, id voluptatum voluptates officiis distinctio
+                                                dolores. Repellat!
+                                            </div>
+                                        </div>
+                                        <div class="news--item">
+                                            <div class="item--view--more">
+                                                Views all latest news :: ➞ 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-sign-up">
+        <div class="bs-container">
+            <div class="bs-row">
+                <div class="bs-col">
+                    <div class="module module-sign-up">
+                        <div class="module-header">
+                            <div class="title">
+                                    Sign up For Exclusives
+                            </div>
+                            <div class="sub">
+                                    Sign up for latest news, exclusive offers and ticket pre-sales
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <form class="sign-up-form">
+                                <input type="text" class="input-sign-up" placeholder="NAME">
+                                <input type="email" class="input-sign-up" placeholder="EMAIL">
+                                <button type="submit" class="btn-submit">Sign up now</button>
+                            </form>
                         </div>
                     </div>
                 </div>

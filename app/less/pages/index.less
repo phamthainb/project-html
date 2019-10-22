@@ -1,7 +1,7 @@
 section {
     margin           : 0 auto;
     display          : block;
-    max-width        : 1900px;
+    max-width        : 1920px;
     position         : relative;
     background-repeat: no-repeat;
     font-family      : Barlow;
@@ -195,7 +195,7 @@ section {
 .section-live-date {
     background-image: url('../../../dist//images/home_livedate_bgr.png');
     height          : 2250px;
-    margin-top      : -390px;
+    margin-top      : -460px;
     z-index         : 2;
 
     .module {
@@ -499,15 +499,17 @@ section {
 .section-social {
     background-image: url('../../../dist//images/home_social_bgr.png');
     height          : 1830px;
-    margin-top      : -440px;
+    margin-top      : -460px;
+    z-index         : 2;
 
     .module-social {
         padding-top: 525px;
 
         .module-header {
             .title {
-                max-width: 222px;
+                max-width  : 222px;
                 line-height: 82px;
+
                 &::after {
                     left : 0px;
                     width: 80%;
@@ -523,6 +525,7 @@ section {
 
                 .tab-container {
                     .tab-control {
+                        padding-top  : 331px;
                         width        : 400px;
                         padding-right: 210px;
                         border-right : unset;
@@ -554,20 +557,347 @@ section {
                     }
 
                     .tab-content {
-                        // background-color: white;
+                        padding-top : 0;
+                        margin-top  : -328px;
+                        padding-left: 3px;
+                        margin-right: -33px;
 
                         .tab-item {
+                            .line--second {
+                                padding-top: 109px;
+                            }
+
                             .item {
-                                color : white;
-                                img{ width: 100%;}
+                                color           : #fff;
+                                margin-bottom   : 31px;
+                                background-color: #291b1b57;
+                                border-radius   : 6px;
+                                padding-bottom  : 50px;
 
 
+                                .img_ {
+                                    width : 100%;
+                                    height: 100px;
+
+                                    img {
+                                        width          : 100%;
+                                        height         : 100%;
+                                        object-fit     : cover;
+                                        object-position: 0px -148px;
+                                    }
+                                }
+
+                                .social {
+                                    padding: 0 60px;
+                                    display: inline-block;
+
+                                    .icon_logo {
+                                        float           : left;
+                                        width           : 41px;
+                                        background-color: red;
+                                    }
+
+                                    .socical-text {
+                                        float      : left;
+                                        margin-left: 20px;
+
+                                        p.author {
+                                            font-size     : 18px;
+                                            font-family   : BarlowSemi;
+                                            margin-bottom : 0;
+                                            letter-spacing: .3px;
+                                            line-height   : 13px;
+                                        }
+
+                                        p.date {
+                                            font-size     : 16px;
+                                            font-family   : Barlow;
+                                            color         : #768cbf;
+                                            letter-spacing: 1.2px;
+                                            line-height   : 32px;
+                                        }
+                                    }
+                                }
+
+                                &.item_small {
+                                    .name {
+                                        font-size     : 24px;
+                                        font-family   : BarlowSemi;
+                                        padding       : 60px 60px 35px 60px;
+                                        letter-spacing: 0.9px;
+                                        line-height   : 38px;
+                                    }
+
+                                }
+
+                                &.item_big {
+                                    .content {
+                                        padding       : 51px 60px 23px 60px;
+                                        font-size     : 18px;
+                                        letter-spacing: .3px;
+                                        line-height   : 30px;
+
+                                        .content--link {
+                                            color    : #67f17d;
+                                            font-size: 19px;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
                 }
             }
+        }
+    }
+}
 
+.section-news {
+    height             : 1800px;
+    background-image   : url(../../../dist/images/home_news_bgr.png);
+    background-position: 0 -592px;
+    margin-top         : -332px;
+    z-index            : 1;
+    padding-top        : 412px;
+
+    .module-news {
+        .module-header {
+            padding-left: 93px;
+
+            .title {
+                line-height: 71px;
+
+                .title--rule {
+                    font-size     : 19px;
+                    line-height   : 13px;
+                    letter-spacing: 3px;
+                    font-family   : BarlowSemi;
+                    padding-left  : 4px;
+                    margin-bottom : 25px;
+                }
+
+                &::after {
+                    left  : 5px;
+                    bottom: -42px;
+                }
+            }
+
+            .header--body {
+                padding: 26px 6px;
+
+                .time {
+                    color         : white;
+                    font-size     : 17px;
+                    font-family   : BarlowSemi;
+                    letter-spacing: 3.1px;
+                    margin-bottom : 41px;
+                }
+
+                .header-content {
+                    color      : white;
+                    font-family: Barlow;
+                    font-size  : 18px;
+                    line-height: 29px;
+                }
+
+                .header-btn {
+                    margin        : 34px 0 0px 0px;
+                    text-align    : center;
+                    text-transform: uppercase;
+                    font-family   : BarlowBold;
+                    letter-spacing: 3px;
+                    padding       : 22px;
+                    color         : white;
+                    border        : 2px solid;
+                    cursor        : pointer;
+                    width         : 200px;
+                    height        : 64px;
+
+                    &:hover {
+                        background-color: #032c9e;
+                        border          : 2px solid #032c9e;
+                    }
+
+                    &.sold-out {
+                        color : #d54865;
+                        border: 2px solid #2e3751;
+
+                        &:hover {
+                            color           : black;
+                            background-color: red;
+                            border          : 2px solid red;
+                        }
+                    }
+                }
+            }
+        }
+
+        .module-content {
+            .list-news {
+                background-color: #83f57387;
+                border-radius   : 7px;
+
+                .news--item {
+                    background-color: rgba(0, 0, 255, 0.3607843137254902);
+                    padding         : 43px 70px 37px;
+                    color           : #fff;
+                    position        : relative;
+                    border-bottom   : 1px solid #00ff28;
+                    cursor          : pointer;
+                    transition      : all 1s cubic-bezier(0, 0, 0.51, 0.51);
+
+
+
+                    .item--time,
+                    .item--content {
+                        display: none;
+                    }
+
+                    .item--title {
+                        font-size  : 22px;
+                        font-family: BarlowSemi;
+                    }
+
+                    &.news--item:first-child,
+                    &.news--item:last-child {
+                        background-color: transparent;
+                    }
+
+                    &.news--item:last-child {
+                        border-bottom: unset;
+                        cursor       : unset;
+                    }
+
+                    &:hover {
+                        background-color: #032c9e;
+                    }
+
+                    &.active--news--item {
+                        padding         : 45px 70px 37px;
+                        background-color: #032c9e !important;
+
+                        .item--time {
+                            display       : block;
+                            font-size     : 14px;
+                            font-family   : BarlowSemi;
+                            letter-spacing: .7px;
+                        }
+
+                        .item--title {
+                            font-size  : 26px;
+                            font-family: BarlowSemi;
+                            line-height: 47px;
+                        }
+
+                        .item--content {
+                            display    : block;
+                            font-size  : 15px;
+                            line-height: 27px;
+                            color      : #4c75e7;
+                        }
+
+                        &::before {
+                            content         : "";
+                            position        : absolute;
+                            height          : 100%;
+                            width           : 6px;
+                            left            : -6px;
+                            top             : 0px;
+                            background-color: #6aff7f;
+                        }
+                    }
+
+                    .item--view--more {
+                        font-size     : 17px;
+                        letter-spacing: 0.8px;
+                        cursor        : pointer;
+
+                        &:hover {
+                            color          : black;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-sign-up {
+    height               : 1800px;
+    background-image     : linear-gradient(black, black), url(../images/footer_bgr.png);
+    background-blend-mode: saturation;
+    padding-top          : 760px;
+    margin-top           : -800px;
+    background-position-x: center;
+
+    .module-header {
+        text-align   : center;
+        margin-bottom: 46px;
+
+        .title {
+            margin-bottom: 46px !important;
+
+            &::after {
+                left     : 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .sub {
+            color      : #6c82b2;
+            font-size  : 20px;
+            font-family: Barlow;
+        }
+    }
+
+    .module-content {
+        margin-top  : 62px;
+        padding-left: 65px;
+
+        .sign-up-form {
+            color    : #fff;
+            max-width: 400px;
+            margin   : 0 auto;
+
+            .input-sign-up {
+                background-color: transparent;
+                border          : none;
+                border-bottom   : 1px solid;
+                border-radius   : 0;
+                padding-bottom  : 18px;
+                padding-left    : 0px;
+                margin          : 30px 0px 19px;
+
+                &::placeholder {
+                    color      : white;
+                    font-family: BarlowSemi;
+                    font-style : normal;
+                    letter-spacing  : 3px;
+                }
+            }
+
+            .btn-submit {
+                margin: 19px 0 0;
+                text-align    : center;
+                text-transform: uppercase;
+                font-family   : BarlowBold;
+                letter-spacing: 3px;
+                padding       : 22px;
+                color         : #fff;
+                border        : 2px solid;
+                cursor        : pointer;
+                width         : 100%;
+                height        : 64px;
+                border-radius : 0;
+                background    : transparent;
+
+                &:hover {
+                    background-color: #032c9e;
+                    border          : 2px solid #032c9e;
+                }
+
+            }
         }
     }
 

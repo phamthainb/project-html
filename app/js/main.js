@@ -50,5 +50,9 @@ $(document).ready(function () {
         dots: true,
         arrows: false
     })
-
+    // section news
+    $(".news--item").on("click", function(){
+        $(".news--item").removeClass("active--news--item");
+        $(this).addClass("active--news--item");
+    });
 });
