@@ -6,22 +6,6 @@ $(document).ready(function () {
         duration: "300",
     });
 
-    // if ($(this).scrollTop() >= 42) {
-    //     $(".header-nav").addClass("scrolled");
-    // } else {
-    //     $(".header-nav").removeClass("scrolled");
-    // }
-    // $(window).on("load", function () {
-    //     if ($(this).scrollTop() >= 42) {
-    //         $(".header-nav").addClass("scrolled");
-
-
-    //     } else {
-    //         $(".header-nav").removeClass("scrolled");
-
-    //     }
-    // });
-
     $(document).scroll(function () {
         if ($(this).scrollTop() >= $("#main").offset().top) {
             $(".back-top").addClass("active");
@@ -61,4 +45,12 @@ $(document).ready(function () {
         $(".news--item").removeClass("active--news--item");
         $(this).addClass("active--news--item");
     });
+
+    // nav responsive
+    $(".show__menu").on("click", function(){
+        $(".menu").toggleClass("nav__res")
+    })
+    $(".close__menu").on("click", function(){
+        $(".menu").removeClass("nav__res")
+    })
 });

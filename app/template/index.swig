@@ -84,8 +84,8 @@ MIMUSIC
                         <div class="module-content">
                             <div class="list-item">
                                 <div class="item">
-                                    <div class="bs-row row-lg-10">
-                                        <div class="bs-col lg-20-10 ">
+                                    <div class="bs-row row-lg-10 row-xs-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10 ">
                                             <div class="information">
                                                 <div class="date">
                                                     <p class="day">21</p>
@@ -96,7 +96,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-35-10">
+                                        <div class="bs-col lg-35-10 sm-35-10 xs-50-10">
                                             <div class="content">
                                                 <div class="name">
                                                     Unforgettable: Live
@@ -106,7 +106,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-25-10">
+                                        <div class="bs-col lg-25-10 sm-25-10 xs-50-10">
                                             <div class="place_time">
                                                 <div class="place">
                                                     <span>
@@ -121,7 +121,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-20-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10">
                                             <div class="btn_ticket">
                                                 find tickets
                                             </div>
@@ -129,8 +129,8 @@ MIMUSIC
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="bs-row row-lg-10">
-                                        <div class="bs-col lg-20-10 ">
+                                    <div class="bs-row row-lg-10 row-xs-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10 ">
                                             <div class="information">
                                                 <div class="date">
                                                     <p class="day">21</p>
@@ -141,7 +141,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-35-10">
+                                        <div class="bs-col lg-35-10 sm-35-10 xs-50-10">
                                             <div class="content">
                                                 <div class="name">
                                                     Unforgettable: Live
@@ -151,7 +151,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-25-10">
+                                        <div class="bs-col lg-25-10 sm-25-10 xs-50-10">
                                             <div class="place_time">
                                                 <div class="place">
                                                     <span>
@@ -166,7 +166,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-20-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10">
                                             <div class="btn_ticket">
                                                 find tickets
                                             </div>
@@ -174,8 +174,8 @@ MIMUSIC
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="bs-row row-lg-10">
-                                        <div class="bs-col lg-20-10 ">
+                                    <div class="bs-row row-lg-10 row-xs-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10 ">
                                             <div class="information">
                                                 <div class="date">
                                                     <p class="day">21</p>
@@ -186,7 +186,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-35-10">
+                                        <div class="bs-col lg-35-10 sm-35-10 xs-50-10">
                                             <div class="content">
                                                 <div class="name">
                                                     Unforgettable: Live
@@ -196,7 +196,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-25-10">
+                                        <div class="bs-col lg-25-10 sm-25-10 xs-50-10">
                                             <div class="place_time">
                                                 <div class="place">
                                                     <span>
@@ -211,7 +211,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-20-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10">
                                             <div class="btn_ticket">
                                                 find tickets
                                             </div>
@@ -219,8 +219,8 @@ MIMUSIC
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="bs-row row-lg-10">
-                                        <div class="bs-col lg-20-10 ">
+                                    <div class="bs-row row-lg-10 row-xs-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10 ">
                                             <div class="information">
                                                 <div class="date">
                                                     <p class="day">21</p>
@@ -231,7 +231,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-35-10">
+                                        <div class="bs-col lg-35-10 sm-35-10 xs-50-10">
                                             <div class="content">
                                                 <div class="name">
                                                     Unforgettable: Live
@@ -241,7 +241,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-25-10">
+                                        <div class="bs-col lg-25-10 sm-25-10 xs-50-10">
                                             <div class="place_time">
                                                 <div class="place">
                                                     <span>
@@ -256,7 +256,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-20-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10">
                                             <div class="btn_ticket">
                                                 find tickets
                                             </div>
@@ -264,8 +264,8 @@ MIMUSIC
                                     </div>
                                 </div>
                                 <div class="item remove_border">
-                                    <div class="bs-row row-lg-10">
-                                        <div class="bs-col lg-20-10 ">
+                                    <div class="bs-row row-lg-10 row-xs-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10 ">
                                             <div class="information">
                                                 <div class="date">
                                                     <p class="day">21</p>
@@ -276,7 +276,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-35-10">
+                                        <div class="bs-col lg-35-10 sm-35-10 xs-50-10">
                                             <div class="content">
                                                 <div class="name">
                                                     Unforgettable: Live
@@ -286,7 +286,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-25-10">
+                                        <div class="bs-col lg-25-10 sm-25-10 xs-50-10">
                                             <div class="place_time">
                                                 <div class="place">
                                                     <span>
@@ -301,7 +301,7 @@ MIMUSIC
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bs-col lg-20-10">
+                                        <div class="bs-col lg-20-10 sm-20-10 xs-50-10">
                                             <div class="btn_ticket sold-out">
                                                 sold out
                                             </div>
@@ -332,8 +332,8 @@ MIMUSIC
                             </div>
                         </div>
                         <div class="module-content">
-                            <div class="bs-row row-lg-10">
-                                <div class="bs-col lg-30-10">
+                            <div class="bs-row row-lg-10 row-sm-10">
+                                <div class="bs-col  lg-30-10 sm-30-10 xs-100">
                                     <div class="albums_1">
                                         <div class="item item_small">
                                             <img src="../../dist/images/home_album_item_1.png" alt="albums">
@@ -343,7 +343,7 @@ MIMUSIC
                                         </div>
                                     </div>
                                 </div>
-                                <div class="bs-col lg-40-10">
+                                <div class="bs-col  lg-40-10 sm-40-10 xs-100">
                                     <div class="albums_2">
                                         <div class="item item_big">
                                             <img src="../../dist/images/home_album_item_2.png" alt="albums">
@@ -359,7 +359,7 @@ MIMUSIC
                                         </div>
                                     </div>
                                 </div>
-                                <div class="bs-col lg-30-10">
+                                <div class="bs-col lg-30-10 sm-30-10 xs-100">
                                     <div class="albums_3">
                                         <div class="item item_small">
                                             <img src="../../dist/images/home_album_item_4.png" alt="albums">
@@ -408,7 +408,7 @@ MIMUSIC
                                     <div class="tab-content">
                                         <div class="tab-item active" id="tab1">
                                             <div class="bs-row row-lg-10">
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--first">
                                                         <div class="item item_small">
                                                             <div class="name">
@@ -449,7 +449,7 @@ MIMUSIC
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--second">
                                                         <div class="item item_big">
                                                             <div class="img_">
@@ -494,7 +494,7 @@ MIMUSIC
                                         </div>
                                         <div class="tab-item" id="tab2">
                                             <div class="bs-row row-lg-10">
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--first">
                                                         <div class="item item_small">
                                                             <div class="name">
@@ -535,7 +535,7 @@ MIMUSIC
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--second">
                                                         <div class="item item_big">
                                                             <div class="img_">
@@ -580,7 +580,7 @@ MIMUSIC
                                         </div>
                                         <div class="tab-item" id="tab3">
                                             <div class="bs-row row-lg-10">
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--first">
                                                         <div class="item item_small">
                                                             <div class="name">
@@ -621,7 +621,7 @@ MIMUSIC
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--second">
                                                         <div class="item item_big">
                                                             <div class="img_">
@@ -666,7 +666,7 @@ MIMUSIC
                                         </div>
                                         <div class="tab-item" id="tab4">
                                             <div class="bs-row row-lg-10">
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--first">
                                                         <div class="item item_small">
                                                             <div class="name">
@@ -707,7 +707,7 @@ MIMUSIC
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--second">
                                                         <div class="item item_big">
                                                             <div class="img_">
@@ -752,7 +752,7 @@ MIMUSIC
                                         </div>
                                         <div class="tab-item" id="tab5">
                                             <div class="bs-row row-lg-10">
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--first">
                                                         <div class="item item_small">
                                                             <div class="name">
@@ -793,7 +793,7 @@ MIMUSIC
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="bs-col lg-50-10">
+                                                <div class="bs-col lg-50-10 xs-50-10 tn-100">
                                                     <div class="line--second">
                                                         <div class="item item_big">
                                                             <div class="img_">
@@ -839,7 +839,6 @@ MIMUSIC
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -852,7 +851,7 @@ MIMUSIC
                 <div class="bs-col">
                     <div class="module module-news">
                         <div class="bs-row">
-                            <div class="bs-col lg-50 lg-order-last">
+                            <div class="bs-col lg-50 xs-50 md-50 tn-100 lg-order-last md-order-last">
                                 <div class="module-header">
                                     <div class="title">
                                         <div class="title--rule">EXCLUSIVE</div>
@@ -867,7 +866,7 @@ MIMUSIC
                                     </div>
                                 </div>
                             </div>
-                            <div class="bs-col lg-50">
+                            <div class="bs-col lg-50 xs-50 md-50 tn-100">
                                 <div class="module-content">
                                     <div class="list-news">
                                         <div class="news--item">
