@@ -1,20 +1,59 @@
-.section-index{
-    .module-index{
-        .module-header{
-            .title{
-                color: #000;
-                text-align: center;
+section {
+    .module {
+        .module-header {}
+
+        .module-content {
+            .btn--main {
+                width           : 200px;
+                height          : 40px;
+                background-color: white;
+                border-radius   : 25px;
+                color           : blue;
+                text-align      : center;
+                text-transform  : uppercase;
+                cursor          : pointer;
+
             }
         }
-        .module-content{
-             .item {
-            height: 100px;
-            background: red;
-            margin-bottom: 20px;
-            color: #fff;
-            font-size: 20px;
+    }
+}
 
-        }
+.section-banner {
+    background-image   : url(../../../dist/images/banner-img.png);
+    background-position: top center;
+    background-repeat  : no-repeat;
+
+    .module-banner {
+        .module-content {
+            display       : flex;
+            align-items   : center;
+            flex-direction: column;
+            justify-items : center;
+
+            .banner--title {
+                font-family: ralewayBlack;
+                font-size     : 100px;
+                color         : white;
+                text-transform: uppercase;
+                font-weight   : bolder;
+                color         : white;
+                text-shadow: -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+
+                @supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
+                    &.banner--title {
+                        color              : transparent;
+                        -webkit-text-stroke: 2px black;
+                        text-stroke        : 2px black;
+                        text-shadow        : none;
+                    }
+                }
+            }
+
+            .banner--content {}
+
         }
     }
 }

@@ -1,83 +1,26 @@
-#header {
-    position: relative;
-    .header-nav {
-        position: relative;
-        width: 100%;
-        background: green;
-        padding-top: 11px;
-        padding-bottom: 9px;
-        z-index: 1;
-        transition: padding 0.5s ease, color 1s ease;
+#header{
+    .bs-container{background-color: red;}
+    background-color: black;
+    .header-nav{
+        display: flex;
+        justify-content: space-between;
+        .logo{
 
-
-
-        .nav-content {
-            .logo {
-                float: left;
-
-                img {
-                    width: 200px;
-                    padding-top: 7px;
-                }
-
-            }
-
-            .nav {
-                float: right;
-
-                .show__menu {
-                    display: none;
-                }
-
-                .menu {
-                    .close__menu {
-                        display: none;
-                    }
-
-                    .menu-list {
-                        .menu-list__item {
-                            float: left;
-                            padding-left: 57px;
-                            padding-top: 25px;
-
-                            .menu-list__link {
-                                display: block;
-                                color: #fff;
-                                font-size: 15px;
-                                position: relative;
-                                text-transform: uppercase;
-
-                                &:after {
-                                    content: "";
-                                    background: #fff;
-                                    width: 6px;
-                                    height: 6px;
-                                    border-radius: 50%;
-                                    font-size: 41px;
-                                    position: absolute;
-                                    top: 50%;
-                                    transform: translateY(-50%);
-                                    left: -17px;
-                                    line-height: 1px;
-                                }
-
-                                &:hover {
-                                    &:after {
-                                        background: #00d166;
-                                    }
-                                    color: #00d166;
-                                }
-
-                            }
-                        }
-                    }
-                }
-            }
+        }
+        .nav{
+           .nav-list{
+               display: flex;
+               .nav-item{
+                   padding: 0px 20px;
+                 a{
+                    color: white;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                 }
+               }
+           }
         }
     }
-   
-
-
 }
 
 
