@@ -1,18 +1,46 @@
 section {
     .module {
-        .module-header {}
+        .module-header {
+            text-align: center;
+            color     : rgb(0, 193, 255);
+
+            .title {
+                font-size     : 29px;
+                text-transform: uppercase;
+                font-family   : ralewayBlack;
+                padding-bottom: 30px;
+            }
+
+            .content {
+                padding    : 0px 115px;
+                line-height: 34px;
+                font-size  : 18px;
+                font-family: raleway;
+            }
+        }
 
         .module-content {
+            color: white;
+
             .btn--main {
-                width           : 200px;
-                height          : 40px;
-                background-color: white;
-                border-radius   : 25px;
-                color           : blue;
-                text-align      : center;
+                width           : 257px;
+                height          : 56px;
+                border-radius   : 40px;
+                color           : #00a3db;
                 text-transform  : uppercase;
                 cursor          : pointer;
+                font-size       : 24px;
+                font-family     : ralewayBold;
+                display         : flex;
+                justify-content : center;
+                align-items     : center;
+                background-color: rgba(255, 255, 255, 0.75);
+                transition      : all 0.5s ease-out;
 
+                &:hover {
+                    background-color: rgba(0, 128, 0, 0.68);
+                    transform       : scale(0.95);
+                }
             }
         }
     }
@@ -22,6 +50,9 @@ section {
     background-image   : url(../../../dist/images/banner-img.png);
     background-position: top center;
     background-repeat  : no-repeat;
+    background-size    : cover;
+    padding-top        : 270px;
+    text-align         : center;
 
     .module-banner {
         .module-content {
@@ -29,31 +60,313 @@ section {
             align-items   : center;
             flex-direction: column;
             justify-items : center;
+            padding-bottom: 162px;
 
             .banner--title {
-                font-family: ralewayBlack;
-                font-size     : 100px;
-                color         : white;
-                text-transform: uppercase;
-                font-weight   : bolder;
-                color         : white;
-                text-shadow: -1px -1px 0 #000,
-                    1px -1px 0 #000,
-                    -1px 1px 0 #000,
-                    1px 1px 0 #000;
+                position: relative;
 
-                @supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
-                    &.banner--title {
+                .text-content,
+                &::after {
+                    font-family   : ralewayBlack;
+                    font-size     : 180px;
+                    text-transform: uppercase;
+                    font-weight   : bolder;
+                    letter-spacing: -3px;
+
+                    @supports((text-stroke: 3px white) or (-webkit-text-stroke: 3px white)) {
                         color              : transparent;
-                        -webkit-text-stroke: 2px black;
-                        text-stroke        : 2px black;
-                        text-shadow        : none;
+                        -webkit-text-stroke: 3px white;
+                        text-stroke        : 3px white;
+                        filter             : blur(3px);
+                    }
+                }
+
+                &::after {
+                    position : absolute;
+                    content  : "sport";
+                    top      : 0px;
+                    left     : 0px;
+                    font-size: 180px;
+
+                    @supports((text-stroke: 2px white) or (-webkit-text-stroke: 2px white)) {
+                        -webkit-text-stroke: 2px white;
+                        text-stroke        : 2px white;
+                        filter             : unset;
                     }
                 }
             }
 
-            .banner--content {}
+            .banner--content {
+                padding    : 0px 180px 96px 180px;
+                font-size  : 21px;
+                font-family: raleway;
+                margin-top : -5px;
+                line-height: 27px;
+            }
 
         }
+    }
+}
+
+.section-about {
+    .module-about {
+        .module-header {
+            padding-top     : 157px;
+            padding-bottom  : 153px;
+            background-color: black;
+        }
+
+        .module-content {
+            background-color: rgb(20, 20, 20);
+            padding-top     : 120px;
+            padding-bottom  : 70px;
+
+            .item {
+                padding   : 15px 35px;
+                transition: all 0.3s ease-in-out;
+                cursor    : pointer;
+
+                .item--title {
+                    font-size     : 18px;
+                    font-family   : ralewayBold;
+                    padding-bottom: 35px;
+                    text-transform: uppercase;
+                }
+
+                .item--content {
+                    font-family: raleway;
+                    font-size  : 17px;
+                }
+
+                &:hover {
+                    transform: scale(1.05);
+                    border   : 1px solid rgb(0, 193, 255);
+                }
+            }
+        }
+    }
+}
+
+.section-priorities {
+    background-image : url(../../../dist/images/priorities-img.png);
+    background-repeat: no-repeat;
+    background-size  : cover;
+
+    .module-priorities {
+        padding-top   : 83px;
+        padding-bottom: 83px;
+
+        .module-header {
+            padding-bottom: 90px;
+
+            .title {
+                margin-bottom: 10px;
+            }
+        }
+
+        .module-content {
+            .item {
+                text-align      : center;
+                background-color: rgba(0, 0, 0, 0.58);
+                margin-bottom   : 25px;
+                transition      : all 0.3s ease-out;
+
+                .item--title {
+                    text-transform: uppercase;
+                    font-family   : ralewayBold;
+                    font-size     : 15px;
+                    padding-top   : 59px;
+                    letter-spacing: 1px;
+                    padding-bottom: 52px;
+                }
+
+                .item--content {
+                    padding      : 0px 80px;
+                    line-height  : 22px;
+                    margin-bottom: 38px;
+                    font-size    : 18px;
+                    font-family  : serif;
+                }
+
+                .item--author {
+                    padding-bottom: 63px;
+
+                    .name {
+                        font-family   : ralewayBold;
+                        text-transform: uppercase;
+                        margin        : 0px;
+                    }
+
+                    .position {
+                        font-family: serif;
+                        font-size  : 18px;
+                    }
+                }
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+
+.section-exactly {
+    background-color: black;
+
+    .module-exactly {
+        padding-top   : 91px;
+        padding-bottom: 111px;
+
+        .module-header {
+            padding-bottom: 80px;
+
+            .title {
+                padding-bottom: 22px;
+            }
+        }
+
+        .module-content {
+            .bs-tab {
+                .tab-control {
+                    border        : none;
+                    padding-bottom: 25px;
+
+                    .control-list {
+                        display        : flex;
+                        justify-content: center;
+
+                        .control-list__item {
+                            background: none;
+                            border    : none;
+                            color     : rgb(0, 193, 255);
+
+                            &.active {
+                                color: red;
+                            }
+                        }
+                    }
+                }
+
+                .tab-content {
+                    .tab-item {
+                        .item {
+                            text-align : center;
+                            padding-top: 27px;
+                            transition : all 0.3s ease-in-out;
+                            position   : relative;
+
+                            .item--icon {
+                                height: 107px;
+
+                                img {
+                                    height: 100%;
+                                }
+                            }
+
+                            .title {
+                                padding-top   : 44px;
+                                font-size     : 25px;
+                                text-transform: uppercase;
+                                font-family   : ralewayBold;
+                                margin-bottom : 45px;
+                            }
+
+                            .content {
+                                width      : 210px;
+                                display    : block;
+                                margin     : 0 auto;
+                                line-height: 21px;
+                                font-size  : 17px;
+                                font-family: raleway;
+                            }
+
+                            .author {
+                                .name {
+                                    text-transform: uppercase;
+                                    font-size     : 14px;
+                                    font-family   : ralewayBold;
+                                    padding-top   : 61px;
+                                    margin        : 0;
+                                }
+
+                                .position {
+                                    font-family   : raleway;
+                                    text-transform: capitalize;
+                                }
+                            }
+
+                            &:hover {
+                                transform: scale(1.05);
+                                border   : 1px solid rgb(0, 193, 255);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-quota {
+    color           : rgb(0, 193, 255);
+    font-family     : ralewayBold;
+    text-align      : center;
+    background-color: rgb(20, 20, 20);
+    padding-top     : 122px;
+    padding-bottom  : 58px;
+
+    .content {
+        font-size     : 20px;
+        max-width     : 810px;
+        display       : block;
+        margin        : 0 auto;
+        line-height   : 33px;
+        padding-bottom: 42px;
+    }
+
+    .author {
+        font-size  : 18px;
+        font-family: raleway;
+    }
+}
+
+.section-nature {
+    background-color: black;
+
+    .module-nature {
+        .module-header {
+            padding-top : 182px;
+            text-align  : left;
+            padding-left: 14px;
+
+            .title {
+                font-family   : raleway;
+                font-size     : 37px;
+                padding-bottom: 0px;
+            }
+
+            .content {
+                padding-right: 110px;
+                padding-left : 0px;
+            }
+        }
+
+        .module-content {
+            // > 1200px
+            // width    : 100%;
+            // img{width: 100%;}
+        }
+    }
+}
+.section-buy{
+    background-image: url(../../../dist/images/buy-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .introduct{
+        width: 300px;
+        color: white;
+        float: right;
+        .intro--title{}
     }
 }

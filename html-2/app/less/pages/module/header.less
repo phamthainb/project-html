@@ -1,26 +1,45 @@
-#header{
-    .bs-container{background-color: red;}
-    background-color: black;
-    .header-nav{
-        display: flex;
-        justify-content: space-between;
-        .logo{
+#header {
+    position  : fixed;
+    width     : 100%;
+    margin-top: 41px;
+display: none;
+    .bs-container {
+        // background-color: red;
+    }
 
+    background-color: black;
+
+    .header-nav {
+        display        : flex;
+        justify-content: space-between;
+
+        .logo {
+            margin-left: -19px;
+            margin-top : 13px;
+
+            img {
+                width: 100%;
+            }
         }
-        .nav{
-           .nav-list{
-               display: flex;
-               .nav-item{
-                   padding: 0px 20px;
-                 a{
-                    color: white;
-                    font-size: 15px;
-                    text-transform: uppercase;
-                 }
-               }
-           }
+
+        .nav {
+            margin-right: -56px;
+
+            .nav-list {
+                display: flex;
+
+                .nav-item {
+                    padding-left: 79px;
+                    padding-top : 16px;
+
+                    a {
+                        color         : #fff;
+                        font-size     : 20px;
+                        text-transform: uppercase;
+                        font-family   : raleway;
+                    }
+                }
+            }
         }
     }
 }
-
-
