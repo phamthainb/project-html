@@ -424,18 +424,96 @@
         <div class="bs-container">
             <div class="bs-row">
                 <div class="bs-col">
-                    <div class="introduct">
-                        <div class="intro--title">
-                            buy your tickets
+                    <div class="module">
+                        <div class="module-content">
+                            <div class="introduct">
+                                <div class="intro--title">
+                                    buy your tickets
+                                </div>
+                                <div class="intro--content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi ullam
+                                    labore dolor, nesciunt quisquam quas repellat cupiditate vel?
+                                </div>
+                                <div class="btn--main">here</div>
+                            </div>
                         </div>
-                        <div class="intro--content">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi ullam labore dolor, nesciunt quisquam quas repellat cupiditate vel?
-                        </div>
-                        <div class="btn--main">here</div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="section-project">
+        <div class="bs-container">
+            <div class="bs-row">
+                <div class="bs-col">
+                    <div class="module module-project">
+                        <div class="module-content">
+                            <div class="item">
+                                <div class="bs-row">
+                                    <div class="bs-col sm-50 tn-100">
+                                        <div class="item--content">
+                                           <p class="time">Project/ 20th August</p>
+                                           <p class="name">somethings new has just arrived</p>
+                                           <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est cupiditate porro, animi, beatae natus id quod, consequuntur cum voluptates vero quaerat fuga tempore quis amet.</p>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col sm-50 tn-100 xs-order-1 tn-order-1">
+                                        <div class="item--icon">
+                                            <img src="../../dist/images/project-icon-1.png" alt="icon projects">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bs-row">
+                                    <div class="bs-col sm-50 tn-100">
+                                        <div class="item--content">
+                                           <p class="time">Project/ 20th August</p>
+                                           <p class="name">somethings new has just arrived</p>
+                                           <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est cupiditate porro, animi, beatae natus id quod, consequuntur cum voluptates vero quaerat fuga tempore quis amet.</p>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col sm-50 tn-100 lg-order-1 sm-order-1 md-order-1 xs-order-1 tn-order-1">
+                                        <div class="item--icon">
+                                            <img src="../../dist/images/project-icon-2.png" alt="icon projects">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bs-row">
+                                    <div class="bs-col sm-50 tn-100">
+                                        <div class="item--content">
+                                           <p class="time">Project/ 20th August</p>
+                                           <p class="name">somethings new has just arrived</p>
+                                           <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est cupiditate porro, animi, beatae natus id quod, consequuntur cum voluptates vero quaerat fuga tempore quis amet.</p>
+                                        </div>
+                                    </div>
+                                    <div class="bs-col sm-50 tn-100 xs-order-1 tn-order-1">
+                                        <div class="item--icon">
+                                            <img src="../../dist/images/project-icon-3.png" alt="icon projects">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-quota">
+            <div class="bs-container">
+                <div class="bs-row">
+                    <div class="bs-col">
+                        <div class="content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sit distinctio? Dicta, magni
+                            possimus accusantium aliquam molestiae id quae mollitia illo rem quam!
+                        </div>
+                        <div class="author">David Johnson</div>
+                    </div>
+                </div>
+            </div>
     </section>
 </main>
 {% endblock %}

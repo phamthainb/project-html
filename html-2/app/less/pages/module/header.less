@@ -1,13 +1,10 @@
 #header {
-    position  : fixed;
-    width     : 100%;
-    margin-top: 41px;
-display: none;
-    .bs-container {
-        // background-color: red;
-    }
-
+    position        : fixed;
+    width           : 100%;
+    margin-top      : 41px;
     background-color: black;
+    z-index         : 999;
+    transition      : all 0.5s ease-in-out;
 
     .header-nav {
         display        : flex;
@@ -23,7 +20,14 @@ display: none;
         }
 
         .nav {
-            margin-right: -56px;
+
+            // margin-right: -56px;
+            .open--nav {
+                color      : #fff;
+                font-size  : 25px;
+                display    : block;
+                padding-top: 10px;
+            }
 
             .nav-list {
                 display: flex;
@@ -38,6 +42,36 @@ display: none;
                         text-transform: uppercase;
                         font-family   : raleway;
                     }
+                }
+            }
+        }
+    }
+
+    &.scrolled {
+        margin-top: 0px;
+    }
+
+    &.scroll--up {
+        display: block;
+    }
+
+    &.scroll--down {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width : 767px) {
+    #header {
+        .header-nav {
+            padding-bottom: 15px;
+
+            .logo {
+                margin-left: 0px;
+            }
+
+            .nav {
+                .nav-list {
+                    display: none;
                 }
             }
         }
