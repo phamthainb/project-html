@@ -1,18 +1,24 @@
 #header {
-    position        : fixed;
-    width           : 100%;
-    margin-top      : 41px;
+    position: fixed;
+    width: 100%;
+    margin-top: 41px;
     background-color: black;
-    z-index         : 999;
-    transition      : all 0.5s ease-in-out;
+    z-index: 999;
+    transition: all 0.5s ease-in-out;
+
+    &.scroll {
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, 0.5098039215686274);
+        color: white;width: 100vw;
+    }
 
     .header-nav {
-        display        : flex;
+        display: flex;
         justify-content: space-between;
 
         .logo {
             margin-left: -19px;
-            margin-top : 13px;
+            margin-top: 13px;
 
             img {
                 width: 100%;
@@ -23,44 +29,39 @@
 
             // margin-right: -56px;
             .open--nav {
-                color      : #fff;
-                font-size  : 25px;
-                display    : block;
+                color: #fff;
+                font-size: 25px;
+                display: none;
                 padding-top: 10px;
+                padding-right: 10px;
             }
 
             .nav-list {
                 display: flex;
 
+                .close--nav {
+                    display: none;
+                }
+
                 .nav-item {
                     padding-left: 79px;
-                    padding-top : 16px;
+                    padding-top: 16px;
 
                     a {
-                        color         : #fff;
-                        font-size     : 20px;
+                        color: #fff;
+                        font-size: 20px;
                         text-transform: uppercase;
-                        font-family   : raleway;
+                        font-family: raleway;
                     }
                 }
             }
         }
     }
 
-    &.scrolled {
-        margin-top: 0px;
-    }
 
-    &.scroll--up {
-        display: block;
-    }
-
-    &.scroll--down {
-        display: none;
-    }
 }
 
-@media screen and (min-width: 480px) and (max-width : 767px) {
+@media screen and  (max-width : 767px) {
     #header {
         .header-nav {
             padding-bottom: 15px;
@@ -70,8 +71,45 @@
             }
 
             .nav {
+                .open--nav {
+                    display: block;
+                }
+
                 .nav-list {
-                    display: none;
+                    // display: none;
+                    position: fixed;
+                    flex-direction: column;
+                    left: 0px;
+                    top: 0px;
+                    background-color: #131313;
+                    height: 100%;
+                    transform: translateX(-100%);
+                    transition: all 0.5s;
+                    &.nav-appear {
+                        transform: translateX(0%);
+                    }
+
+                    .close--nav {
+                        display: block;
+                        position: relative;
+                        font-size: 20px;
+                        padding: 10px;
+                        color: white;
+                        cursor: pointer;
+
+                        i {
+                            float: right;
+                        }
+                    }
+
+                    .nav-item {
+                        padding: 10px 25px;
+                        border-bottom: 1px solid gray;
+
+                        &:hover {
+                            background-color: #00a3db;
+                        }
+                    }
                 }
             }
         }
