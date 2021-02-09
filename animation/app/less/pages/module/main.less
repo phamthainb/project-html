@@ -1,0 +1,675 @@
+main {
+    background-color: #1d236d;
+}
+
+.module {
+    .module-header {
+        color: #fff;
+    }
+
+    .module-content {
+        padding   : 100px 100px;
+        transition: all 0.5s ease;
+
+        img {
+            width: 100%;
+        }
+
+        .box {
+            position: relative;
+            width   : 667px;
+        }
+
+        .layer--1 {
+            width     : 17.6%;
+            position  : absolute;
+            bottom    : 45%;
+            right     : -2.4%;
+            animation : fly 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+
+            .layer-shadow--1 {
+                position  : absolute;
+                bottom    : 43%;
+                width     : 132%;
+                left      : -17%;
+                animation : rotate 3s infinite;
+                transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+            }
+
+            .shadow--icon_1 {
+                position  : absolute;
+                top       : -92%;
+                left      : 2%;
+                animation : fly 3s infinite;
+                transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+            }
+        }
+
+        .layer--2 {
+            width     : 14%;
+            position  : absolute;
+            bottom    : 6%;
+            right     : 36%;
+            animation : fly 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+
+            .layer-shadow--2 {
+                position: absolute;
+                bottom  : 64%;
+                left    : 23%;
+                width   : 58%;
+                overflow: hidden;
+
+                .shadow--2__top {
+                    position  : absolute;
+                    top       : 23%;
+                    left      : 20%;
+                    animation : run 2s linear infinite;
+                    transition: all 0.5 ease;
+                }
+
+                .run--later {
+                    animation : run_later 2s linear infinite;
+                    transition: all 0.5s ease;
+                }
+            }
+
+            .layer-run-on__1 {
+                position: absolute;
+                top     : 45%;
+                left    : 7%;
+
+            }
+        }
+
+        .layer--3 {
+            width     : 14.5%;
+            position  : absolute;
+            top       : 8.2%;
+            left      : 17%;
+            animation : fly 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+
+            .layer-shadow--3 {
+                position: absolute;
+                bottom  : 64%;
+                left    : 23%;
+                width   : 58%;
+                overflow: hidden;
+
+                .shadow--3__top {
+                    position  : absolute;
+                    top       : 23%;
+                    left      : 20%;
+                    animation : run 2s linear infinite;
+                    transition: all 0.5s ease;
+                }
+
+                .run--later {
+                    animation      : run_later 2s linear infinite;
+                    transition     : all 0.5s ease;
+                    animation-delay: 0.24s;
+                }
+            }
+
+            .layer-run-on__1 {
+                position: absolute;
+                top     : 45%;
+                left    : 7%;
+            }
+        }
+
+        .layer--4 {
+            width     : 14.5%;
+            position  : absolute;
+            top       : -20.2%;
+            left      : 24%;
+            animation : fly 2.5s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+
+            .layer-shadow--4 {
+                position: absolute;
+                bottom  : 75%;
+                left    : 23%;
+                width   : 58%;
+                overflow: hidden;
+
+                .shadow--4__top {
+                    position  : absolute;
+                    top       : 23%;
+                    left      : 20%;
+                    animation : run 2s linear infinite;
+                    transition: all 0.5s ease;
+                }
+
+                .run--later {
+                    animation : run_later 2s linear infinite;
+                    transition: all 0.5s ease;
+                }
+            }
+
+            .layer-run-on__1 {
+                position: absolute;
+                top     : 63%;
+                left    : 11%;
+            }
+
+            .layer-run-on__2 {
+                position: absolute;
+                top     : 31%;
+                left    : 12%;
+            }
+        }
+
+        .coin--1 {
+            width   : 10%;
+            position: absolute;
+            top     : 56%;
+            left    : 38%;
+
+
+        }
+
+        //coin item 
+        // .coin--item__1 {
+        //     animation : fly__coin 3s infinite;
+        //     transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        // }
+
+        .coin--item__2 {
+            animation : fly__coin 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+            position  : absolute;
+            width     : 100%;
+            top       : -22.7%;
+        }
+
+        .coin--item__3 {
+            position: absolute;
+            width   : 100%;
+            top     : -47.7%;
+
+
+            animation : fly__coin 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        }
+
+        .coin--item__4 {
+            position: absolute;
+            width   : 100%;
+            top     : -71.7%;
+
+            animation : fly__coin 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        }
+
+        .coin--item__5 {
+            position: absolute;
+            width   : 100%;
+            top     : -97.7%;
+
+
+            animation : fly__coin 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        }
+
+        .coin--item__6 {
+            position: absolute;
+            width   : 100%;
+            top     : -122.7%;
+
+
+            animation : fly__coin 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        }
+
+        .coin--item__7 {
+            position: absolute;
+            width   : 100%;
+            top     : -150.7%;
+
+
+            animation : fly__coin 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        }
+
+        .coin--item__8 {
+            position: absolute;
+            width   : 100%;
+            top     : -148.7%;
+
+
+            animation : fly__coin 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        }
+
+        .coin--item__9 {
+            position: absolute;
+            width   : 100%;
+            top     : -174.7%;
+
+
+            animation : fly__coin 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        }
+
+        .coin--item__10 {
+            position: absolute;
+            width   : 100%;
+            top     : -200.7%;
+
+
+            animation : fly__coin 3s infinite;
+            transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        }
+
+        //coin item 
+        .coin--2 {
+            width   : 10%;
+            position: absolute;
+            top     : 54.5%;
+            left    : 25.8%;
+        }
+
+        .search {
+            width   : 8.5%;
+            position: absolute;
+            top     : 49.5%;
+            left    : 64%;
+
+            .search-bgr {
+                width     : 100%;
+                animation : search__bgr 3s infinite;
+                transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+            }
+
+            .mouse--icon {
+                width     : 70%;
+                position  : absolute;
+                top       : 40%;
+                right     : -30%;
+                animation : search__icon 3s infinite;
+                transition: all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+            }
+
+        }
+
+        .screen {
+            position: absolute;
+            top     : -0.4%;
+            right   : 27%;
+            width   : 16%;
+
+            .screen--card {
+                position : absolute;
+                top      : 68%;
+                transform: translateX(47%);
+            }
+        }
+
+        .dot_1 {
+            height          : 5px;
+            width           : 6px;
+            background-color: #6de0f6;
+            position        : absolute;
+            border-radius   : 50%;
+            box-shadow      : 0px 0px 7px 3px #5de7f9;
+            top             : 39.3%;
+            left            : 19%;
+            animation       : dot_1 3s infinite;
+            transition      : all .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+        }
+    }
+}
+
+@keyframes fly__coin {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(20%);
+
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0%);
+    }
+
+    25% {
+        transform: translateY(-2%);
+    }
+
+    50% {
+        transform: translateY(-5%);
+    }
+
+    75% {
+        transform: translateY(-2%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes run {
+    0% {
+        transform: translateY(80%);
+    }
+
+    80% {
+        transform: translateY(-150%);
+    }
+
+    100% {
+        transform: translateY(-150%);
+    }
+}
+
+@keyframes run_later {
+    0% {
+        transform: translateY(80%);
+    }
+
+    80% {
+        transform: translateY(-150%);
+    }
+
+    100% {
+        transform: translateY(-150%);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        width: 0%;
+        left : 50%;
+    }
+
+    50% {
+        width    : 150%;
+        left     : -25%;
+        transform: rotateY(0deg);
+    }
+
+    70% {
+        width    : 150%;
+        left     : -25%;
+        transform: rotateY(90deg);
+    }
+
+    90% {
+        width    : 150%;
+        left     : -25%;
+        transform: rotateY(0deg);
+
+    }
+
+    100% {
+        width: 0%;
+        left : 50%;
+    }
+}
+
+@keyframes dot_1 {
+    50% {
+        top : 47.3%;
+        left: 10.6%;
+    }
+
+    70% {
+        top : 59.9%;
+        left: 24.6%;
+    }
+
+    100% {
+        top : 51.3%;
+        left: 34%;
+    }
+}
+
+@keyframes search__icon {
+    0% {
+        top  : 257%;
+        right: -230%;
+    }
+
+    10% {
+        top  : 40%;
+        right: -30%;
+    }
+
+}
+
+@keyframes search__bgr {
+    10% {
+        transform: scale(1.1);
+    }
+}
+
+#canvas_3 {
+    border: 1ps solid red;
+}
+
+/// test svg key frame
+
+.section-animation--3 {
+    .module--3 {
+        .module-content {
+            svg {
+                .bgr--shadow {
+                    animation: Expansion 3s infinite;
+                }
+
+                .cloud {
+                    animation: Undulating 3s infinite;
+
+                    .cloud--dot--1 {
+                        animation: Undulating 1s infinite;
+                    }
+
+                    .cloud--dot--2 {
+                        animation      : Undulating 1s infinite;
+                        animation-delay: 0.25s;
+                    }
+
+                    .cloud--dot--3 {
+                        animation      : Undulating 1s infinite;
+                        animation-delay: 0.1s;
+                    }
+                }
+
+                .shadow--cloud {
+                    animation: LayerShadow 3s infinite;
+                }
+
+                .layer--1,
+                .layer--2,
+                .layer--3,
+                .layer--4,
+                .layer--5,
+                .layer--6 {
+
+                    // animation: Undulating 3s infinite;
+                    .balloons {
+                        animation: Balloons 3s infinite;
+                    }
+
+                    .layer--dot {
+                        animation: LayerDot 3s infinite;
+                    }
+
+                    //layer side
+                    .layer--side--1 {
+                        path {
+                            animation: LayerDot 3s infinite;
+                        }
+                    }
+
+                    .layer--side--2 {
+                        path {
+                            animation: LayerDot 3s infinite;
+                        }
+                    }
+
+                    .layer--side--3 {
+                        path {
+                            animation: LayerDot 3s infinite;
+                        }
+                    }
+
+                    .layer--side--4 {
+                        path {
+                            animation: LayerDot 3s infinite;
+                        }
+                    }
+
+                    ///
+
+                    .layer--window {
+                        stroke-dasharray : 45;
+                        stroke-dashoffset: 1;
+                        animation        : dash 10s linear alternate infinite;
+                    }
+                }
+
+                .layer--1 {
+                    animation      : Undulating 3s infinite;
+                    animation-delay: 0s;
+                }
+
+                .layer--shadow--1 {
+                    animation      : LayerShadow 3s infinite;
+                    animation-delay: 0s;
+                }
+
+                .layer--2 {
+                    animation      : Undulating 3s infinite;
+                    animation-delay: 0.5s;
+                }
+
+                .layer--shadow--2 {
+                    animation      : LayerShadow 3s infinite;
+                    animation-delay: 0.5s;
+                }
+
+                .layer--3 {
+                    animation      : Undulating 3s infinite;
+                    animation-delay: 1s;
+                }
+
+                .layer--shadow--3 {
+                    animation      : LayerShadow 3s infinite;
+                    animation-delay: 1s;
+                }
+
+                .layer--4 {
+                    animation      : Undulating 3s infinite;
+                    animation-delay: 1.5s;
+                }
+
+                .layer--shadow--4 {
+                    animation      : LayerShadow 3s infinite;
+                    animation-delay: 1.5s;
+                }
+
+                .layer--5 {
+                    animation      : Undulating 3s infinite;
+                    animation-delay: 2s;
+                }
+
+                .layer--shadow--5 {
+                    animation      : LayerShadow 3s infinite;
+                    animation-delay: 2s;
+                }
+
+                .layer--6 {
+                    animation      : Undulating 3s infinite;
+                    animation-delay: 2.5s;
+                }
+
+                .layer--shadow--6 {
+                    animation      : LayerShadow 3s infinite;
+                    animation-delay: 2.5s;
+                }
+            }
+        }
+    }
+}
+
+@keyframes Undulating {
+    0% {
+        transform: translateY(0%);
+    }
+
+    25% {
+        transform: translateY(-2%);
+    }
+}
+
+@keyframes Balloons {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(25deg);
+        transform: rotateX(25deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes LayerDot {
+    50% {
+        fill: #111c4a;
+    }
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1000;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes LayerShadow {
+    50% {
+        transform: scaleY(1.05);
+        transform: scaleX(1.05);
+    }
+}
+
+@keyframes Expansion {
+
+    // 50% {
+    //     transform       : scale(1.2) translateY(-7%);
+    //     transform-origin: center;
+    // }
+    0% {
+        transform       : scale(1);
+        transform-origin: center;
+    }
+
+    50% {
+        transform       : scale(2.5);
+        transform-origin: center;
+    }
+    100% {
+        transform       : scale(1);
+        transform-origin: center;
+    }
+}

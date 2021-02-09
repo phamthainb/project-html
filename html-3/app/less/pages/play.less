@@ -1,0 +1,178 @@
+.section-introduct {
+    .module-header {}
+
+    .module-content {
+
+        .list-member {
+            .game-member {
+                background-color: #252f5a;
+                position: relative;
+                padding: 25px;
+                color: white;
+                font-family: open_sans_semi;
+
+                .name-game {
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #5f6ea6;
+                    padding-left: 100px;
+
+                    p.name {
+                        margin: 0px 0px 10px;
+                        font-size: 24px;
+                    }
+
+                    p.sub {
+                        color: red;
+                        margin: 0px;
+                        font-size: 14px;
+                        font-family: open_sans;
+                    }
+
+                    .icon-rate {
+                        position: absolute;
+                        top: -25px;
+                        left: 25px;
+
+                        .rate {
+                            border: 1px solid #5f6ea6;
+                            position: absolute;
+                            padding: 0px 10px;
+                            left: 6px;
+                            top: 68px;
+                            border-radius: 3px;
+                            background-color: #252f5a;
+
+                            i {
+                                color: #ffbf00;
+                            }
+                        }
+                    }
+                }
+
+                .info-member {
+                    padding-top: 25px;
+
+                    p.title {
+                        margin-bottom: 25px;
+                        font-size: 16px;
+                    }
+
+                    ul.image {
+                        display: flex;
+                        list-style: none;
+                        position: relative;
+                        margin-left: 10px;
+
+                        li {
+                            border: 2px solid #262e59;
+                            border-radius: 50%;
+                            margin-left: -10px;
+
+                            .last-member {
+                                background-color: #5f6ea6;
+                                border-radius: 50%;
+                                font-size: 11px;
+                                height: 30px;
+                                width: 30px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                        }
+                    }
+
+                    .count-member {
+                        float: right;
+                        margin-top: -30px;
+                        color: #cfcffd;
+                        font-size: 14px;
+                        font-family: open_sans;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-game {
+    background-image: url(../../../dist/images/play/playgame-bg.jpg);
+    padding-top: 200px;
+    margin-top: -100px;
+    padding-bottom: 110px;
+    .module-header {}
+
+    .module-content {
+        .tab-container {
+            .tab-header {
+                padding-top: 150px;
+
+                .tab-link {
+                    border: 1px solid #1c2b57;
+                    border-radius: 50%;
+                    // padding: 19px 35px;
+                    background: transparent !important;
+                    box-shadow: 0px 0px 2px #1c2b57;
+                    height: 130px;
+                    width: 140px;
+
+                    .icon {
+                        display: flex;
+                        flex-direction: column;
+
+                        .icon-active {
+                            display: none;
+                        }
+
+                        .icon-default {
+                            display: block;
+                        }
+
+                        .name {
+                            color: #31c6fc;
+                            text-transform: capitalize;
+                            font-family: open_sans_semi;
+                            font-size: 15px;
+                            white-space: nowrap;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                    }
+
+                    &.active {
+                        border: 1px solid #f9314b;
+
+                        .icon {
+                            .icon-active {
+                                display: block;
+                            }
+
+                            .icon-default {
+                                display: none;
+                            }
+
+                            .name {
+                                color: #f9314b;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tab-content {
+                .list-feature {
+                    .feature-item {
+                        padding-top: 50px;
+                        padding-bottom: 50px;
+                    }
+                }
+            }
+        }
+
+        .btn-style {
+            max-width: 200px;
+            text-align: center;
+            margin: 100px auto 0px;
+            a{color: white;}
+        }
+    }
+}
